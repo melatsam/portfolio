@@ -1,0 +1,70 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    
+}
+.profile-details-name {
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.primary-text{
+    color:blue;
+}
+.highligthed-text{
+    color: darkturquoise;
+}
+.profile-options{
+    justify-content: center;
+    text-align: center;
+} 
+
+.highligthed-btn {
+    margin: 0 0 0 28px;
+}
+.profile-options .highligthed-btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url('../../assets/Home/hero-banner.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+.colz{
+    justify-content: center;
+    text-align: center;
+} 
+
+.colz-icon i {
+    color: white;
+    padding: 8px;
+    padding-top: 0px;
+}
+.colz .colz-icon i:hover {
+    transform: scale(1.5);
+}
